@@ -1,0 +1,71 @@
+body{
+    background-color: #f3f3f3;
+
+}
+#Back{
+    width: 80%;
+    height: 700px;
+    margin: 100px auto;
+    background-color: #f9f9f9;
+    padding-top: 100px;
+    box-shadow: 5px 15px  15px  #cdcdcd,
+    -5px -1px 5px #dfdfdf;
+    border-radius: 7px;
+}
+#colored-sec{
+    width: 90%;
+    height: 80%;
+    margin: 35px auto;
+    color: #eeeeee;
+}
+#colored-sec div:first-child{
+    border-top-left-radius: 7px ;
+    border-bottom-left-radius: 7px;
+    background-color: orange;
+    margin-left: 25px;
+
+}
+#colored-sec div:first-child>a{
+    color: orange;
+}
+#colored-sec div:nth-child(2){
+    background-color: cadetblue;
+}
+#colored-sec div:nth-child(2)>a{
+    color: cadetblue;
+}
+#colored-sec div:nth-child(3){
+    background-color: #1b3434;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+}
+#colored-sec div:nth-child(3)>a{
+    margin-top: 51px;
+    color:#1b3434;
+}
+.box-style{
+    width: 22%;
+    height: 80%;
+    padding: 5%;
+    float: left;
+    line-height: 2;
+
+}
+a{
+    text-decoration: none;
+    background-color: white;
+    padding: 7px 30px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+#colored-sec a:hover {
+    border: 2px solid #eeeeee;
+    color: #eeeeee;
+}
+h1{
+    font-family: Chiller;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
